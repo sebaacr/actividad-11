@@ -7,6 +7,7 @@ export const productos = [
   {
     id: 1,
     nombre: 'Queso Chanco de San Carlos',
+    comuna: 'San Carlos',
     precio: 4500,
     categoria: 'Lácteos',
     imagen: imgQueso,
@@ -15,6 +16,7 @@ export const productos = [
   {
     id: 2,
     nombre: 'Miel de Quillón',
+    comuna: 'Quillón',
     precio: 3500,
     categoria: 'Miel',
     imagen: imgMiel,
@@ -23,6 +25,7 @@ export const productos = [
   {
     id: 3,
     nombre: 'Poncho tejido de Coihueco',
+    comuna: 'Coihueco',
     precio: 22000,
     categoria: 'Textil',
     imagen: imgTejidos,
@@ -30,7 +33,8 @@ export const productos = [
   },
   {
     id: 4,
-    nombre: 'Alfajores Artesanales de San Carlos',
+    nombre: 'Alfajores Artesanales',
+    comuna: 'San Carlos',
     precio: 5000,
     categoria: 'Dulces',
     imagen: imgAlfajores,
